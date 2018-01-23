@@ -97,7 +97,7 @@ public class Player extends Board
                 {
                     for (int n = 0; n < 4; n ++)
                     {
-                        if ((hand[i] == (bPiles[0][n] + 1)) || hand[i] == 13)
+                        if ((hand[i] == (board.bPiles[0][n] + 1)) || hand[i] == 13)
                         {
                             board.bPiles[0][n] ++;
                             board.cleanBPiles();
@@ -140,8 +140,80 @@ public class Player extends Board
 
             if (!played)
             {
-                disPile = addDisPile(disPile, hand[1], 0);
-                hand[1] = 0;
+                for (int i = 0; i < 5; i ++)
+                {
+                    for (int n = 0; n < 4; n ++)
+                    {
+                        if (hand[i] == 13)
+                        {
+                            board.bPiles[0][n] ++;
+                            board.cleanBPiles();
+                            hand[i] = 0;
+                            played = true;
+                            break;
+                        } //if
+                    } //for
+
+                    if (played)
+                    {
+                        break;
+                    } //if
+                } // for
+            } //if
+
+            if (!played)
+            {
+                boolean disFlag = false;
+
+                //check each number in the disPile to see if you can disCard the same card
+                if (true)
+                {
+                    for (int i = 0; i < 4; i++) {
+                        for (int n = 0; n < 5; n++) {
+                            if (hand[n] == disPile[0][i] && hand[n] != 0) {
+                                disPile = addDisPile(disPile, hand[n], i);
+                                hand[n] = 0;
+                                disFlag = true;
+                                break;
+                            } //if
+                        } //for
+
+                        if (disFlag) {
+                            break;
+                        } //if
+                    } //for
+                }
+
+                if (!disFlag)
+                {
+                    int largest = 0, loc = 0;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        if (hand[i] > largest && hand[i] != 13)
+                        {
+                            largest = hand[i];
+                            loc = i;
+                        } //if
+                    } //for
+
+                    for (int i = 0; i < 4; i ++)
+                    {
+                        if (disPile[0][i] == 0)
+                        {
+                            disPile = addDisPile(disPile, largest, i);
+                            hand[loc] = 0;
+                            disFlag = true;
+                            break;
+                        } //if
+                    } //for
+                } //if
+
+                if (!disFlag)
+                {
+                    disPile = addDisPile(disPile, hand[1], 0);
+                    hand[1] = 0;
+                } //if
+
                 flag = false;
             } //if
 
