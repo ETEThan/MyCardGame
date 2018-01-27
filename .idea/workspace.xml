@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b1c037c-48df-48a3-8e0c-8646a46060bf" name="Default" comment="" />
+    <list default="true" id="3b1c037c-48df-48a3-8e0c-8646a46060bf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TheGame.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TheGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TheGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            <state relative-caret-position="145">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -28,7 +30,7 @@
       <file leaf-file-name="Graphics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graphics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="441">
               <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding>
                 <element signature="method#displayDisPile#0;class#Graphics#0" expanded="false" />
@@ -38,13 +40,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="214" column="22" lean-forward="true" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="22" />
+            <state relative-caret-position="33">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+                <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
                 <element signature="method#play#0;class#Player#0" expanded="false" />
                 <element signature="method#discard#0;class#Player#0" expanded="false" />
                 <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -58,7 +61,7 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="609">
               <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,8 +128,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -144,11 +145,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.gitconfig" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -294,8 +297,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37028572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -304,8 +307,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -324,6 +327,242 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6615">
+          <caret line="315" column="12" lean-forward="false" selection-start-line="315" selection-start-column="12" selection-end-line="315" selection-end-column="12" />
+          <folding>
+            <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#play#0;class#Player#0" expanded="false" />
+            <element signature="method#discard#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum1#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum2#0;class#Player#0" expanded="false" />
+            <element signature="method#countCards#0;class#Player#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <element signature="method#displayDisPile#0;class#Graphics#0" expanded="false" />
+            <element signature="method#displayBoard#0;class#Graphics#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#genCard#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#1;class#Board#0" expanded="false" />
+            <element signature="method#genStock#0;class#Board#0" expanded="false" />
+            <element signature="method#sortStock#0;class#Board#0" expanded="false" />
+            <element signature="method#countStock#0;class#Board#0" expanded="false" />
+            <element signature="method#genDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#sortDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#addDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#cleanBPiles#0;class#Board#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6615">
+          <caret line="315" column="12" lean-forward="false" selection-start-line="315" selection-start-column="12" selection-end-line="315" selection-end-column="12" />
+          <folding>
+            <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#play#0;class#Player#0" expanded="false" />
+            <element signature="method#discard#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum1#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum2#0;class#Player#0" expanded="false" />
+            <element signature="method#countCards#0;class#Player#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <element signature="method#displayDisPile#0;class#Graphics#0" expanded="false" />
+            <element signature="method#displayBoard#0;class#Graphics#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#genCard#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#1;class#Board#0" expanded="false" />
+            <element signature="method#genStock#0;class#Board#0" expanded="false" />
+            <element signature="method#sortStock#0;class#Board#0" expanded="false" />
+            <element signature="method#countStock#0;class#Board#0" expanded="false" />
+            <element signature="method#genDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#sortDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#addDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#cleanBPiles#0;class#Board#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="315" column="12" lean-forward="true" selection-start-line="315" selection-start-column="12" selection-end-line="315" selection-end-column="12" />
+          <folding>
+            <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#play#0;class#Player#0" expanded="false" />
+            <element signature="method#discard#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum1#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum2#0;class#Player#0" expanded="false" />
+            <element signature="method#countCards#0;class#Player#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <element signature="method#displayDisPile#0;class#Graphics#0" expanded="false" />
+            <element signature="method#displayBoard#0;class#Graphics#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#genCard#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#1;class#Board#0" expanded="false" />
+            <element signature="method#genStock#0;class#Board#0" expanded="false" />
+            <element signature="method#sortStock#0;class#Board#0" expanded="false" />
+            <element signature="method#countStock#0;class#Board#0" expanded="false" />
+            <element signature="method#genDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#sortDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#addDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#cleanBPiles#0;class#Board#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4494">
+          <caret line="214" column="22" lean-forward="true" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="22" />
+          <folding>
+            <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#play#0;class#Player#0" expanded="false" />
+            <element signature="method#discard#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum1#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum2#0;class#Player#0" expanded="false" />
+            <element signature="method#countCards#0;class#Player#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <element signature="method#displayDisPile#0;class#Graphics#0" expanded="false" />
+            <element signature="method#displayBoard#0;class#Graphics#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#genCard#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#0;class#Board#0" expanded="false" />
+            <element signature="method#genHand#1;class#Board#0" expanded="false" />
+            <element signature="method#genStock#0;class#Board#0" expanded="false" />
+            <element signature="method#sortStock#0;class#Board#0" expanded="false" />
+            <element signature="method#countStock#0;class#Board#0" expanded="false" />
+            <element signature="method#genDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#sortDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#addDisPile#0;class#Board#0" expanded="false" />
+            <element signature="method#cleanBPiles#0;class#Board#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4494">
+          <caret line="214" column="22" lean-forward="true" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="22" />
+          <folding>
+            <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#play#0;class#Player#0" expanded="false" />
+            <element signature="method#discard#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum1#0;class#Player#0" expanded="false" />
+            <element signature="method#readNum2#0;class#Player#0" expanded="false" />
+            <element signature="method#countCards#0;class#Player#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TheGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -369,6 +608,7 @@
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -423,6 +663,7 @@
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -477,6 +718,7 @@
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -511,6 +753,7 @@
           <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -565,6 +808,7 @@
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -639,6 +883,7 @@
           <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -673,6 +918,7 @@
           <caret line="156" column="31" lean-forward="true" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
@@ -713,13 +959,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graphics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="441">
           <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
           <folding>
             <element signature="method#displayDisPile#0;class#Graphics#0" expanded="false" />
@@ -728,17 +973,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TheGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="609">
           <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -758,16 +995,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="214" column="22" lean-forward="true" selection-start-line="214" selection-start-column="22" selection-end-line="214" selection-end-column="22" />
+        <state relative-caret-position="33">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="method#doTurn#0;class#Player#0" expanded="false" />
+            <element signature="method#cDoTurn#0;class#Player#0" expanded="false" />
             <element signature="method#play#0;class#Player#0" expanded="false" />
             <element signature="method#discard#0;class#Player#0" expanded="false" />
             <element signature="method#readNum1#0;class#Player#0" expanded="false" />
             <element signature="method#readNum2#0;class#Player#0" expanded="false" />
             <element signature="method#countCards#0;class#Player#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TheGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
